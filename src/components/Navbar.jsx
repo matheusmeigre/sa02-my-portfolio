@@ -2,15 +2,19 @@ import React from 'react'
 import {useEffect, useState} from 'react'
 
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false)
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem('theme') || 'light'
+  })
 
   useEffect(() => {
-    if (darkMode) {
+    if (theme === "dark") {
       document.documentElement.classList.add('dark')
     } else {
       document.documentElement.classList.remove('dark')
     }
-  }, [darkMode])
+    localStorage.setItem('theme', theme)
+  }, [theme])
+  
   return (
     <>
     <nav className='bg-black text-white px-8 md:px-16 lg:px-24 sticky top-0 z-50' id='home'>
