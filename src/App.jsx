@@ -16,28 +16,27 @@ function App() {
   useEffect(() => {
     // Define a classe "dark" no <html> ou <body> baseado no tema
     if (theme === "dark") {
-      document.documentElement.classList.add("dark");
+      document.getElementById("root").classList.add("dark");
     } else {
-      document.documentElement.classList.remove("dark");
+      document.getElementById("root").classList.remove("dark");
     }
     // Salva a preferência no localStorage
     localStorage.setItem("theme", theme);
   }, [theme]);
 
-  // Função para alternar o tema
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
   return (
     <div>
-      <Navbar  toggleTheme={toggleTheme}/>
-      <Hero toggleTheme={toggleTheme}/>
-      <About toggleTheme={toggleTheme}/>
-      <Service toggleTheme={toggleTheme}/>
-      <Projects toggleTheme={toggleTheme}/>
-      <Contact  toggleTheme={toggleTheme}/>
-      <Footer toggleTheme={toggleTheme}/>
+      <Navbar  toggleTheme={toggleTheme} theme={theme}/>
+      <Hero />
+      <About />
+      <Service />
+      <Projects />
+      <Contact  />
+      <Footer />
     </div>
   )
 }
