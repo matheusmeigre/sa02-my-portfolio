@@ -3,7 +3,7 @@ import MyImage from '../assets/my-image.png'
 
 const Hero = () => {
   return (
-    <div className='bg-black text-white text-center py-16'>
+    <div className='bg-white dark:bg-gray-800 p-4 text-center py-16'>
         <img src={MyImage} alt="Matheus Meigre"
         className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105' />
         <h1 className='text-4xl font-bold'>
