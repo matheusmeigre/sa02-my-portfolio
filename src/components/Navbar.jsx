@@ -17,11 +17,11 @@ const Navbar = () => {
         <div className='container py-2 flex justify-center md:justify-between items-center'>
             <div className='text-2xl font-bold hidden md:inline'>Matheus Meigre</div>
             <div className='space-x-6'>
-                <a href="home" className='hover:text-red-300'>Home</a>
-                <a href="#about" className='hover:text-blue-300'>About</a>
-                <a href="#services" className='hover:text-green-300'>Services</a>
-                <a href="#projects" className='hover:text-orange-300'>Projects</a>
-                <a href="#contact" className='hover:text-green-200'>Contact</a>
+                <a href="home" className='hover:text-red-300'>Início</a>
+                <a href="#about" className='hover:text-blue-300'>Sobre</a>
+                <a href="#services" className='hover:text-green-300'>Serviços</a>
+                <a href="#projects" className='hover:text-orange-300'>Projetos</a>
+                <a href="#contact" className='hover:text-green-200'>Contato</a>
             </div>
               <button className='bg-gradient-to-r from-blue-400 to-green-500 text-white hidden md:inline transform transition-transform
               duration-300 hover:scale-105 px-4 py-2 rounded-full cursor-pointer'>
