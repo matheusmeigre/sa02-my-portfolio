@@ -16,9 +16,9 @@ const Hero = () => {
         </p>
         <div className='mt-8 space-x-4'>
             <button className='bg-gradient-to-r from-blue-400 to-green-500 text-white px-4 py-2 rounded-full transform
-            transition-transform duration-300 hover:scale-105'>Fale Comigo!</button>
+            transition-transform duration-300 hover:scale-105 cursor-pointer'>Fale Comigo!</button>
             <button className='bg-gradient-to-r from-orange-500 to-yellow-600 text-white px-4 py-2 rounded-full transform
-            transition-transform duration-300 hover:scale-105'>Veja Meus Projetos!</button>
+            transition-transform duration-300 hover:scale-105 cursor-pointer'>Veja Meus Projetos!</button>
         </div>
     </div>
   )
