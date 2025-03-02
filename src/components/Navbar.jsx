@@ -1,12 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const Navbar = (  {toggleTheme, theme} ) => {
-  const [darkMode, setDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
+const Navbar = () => {
   return (
     <>
       <nav className='bg-black text-white p-4 md:px-16 lg:px-24 sticky top-0 z-50' id='home'>
@@ -20,7 +15,7 @@ const Navbar = (  {toggleTheme, theme} ) => {
                   <a href="#contact" className='hover:text-green-200'>Contato</a>
               </div>
                 <button className='bg-gradient-to-r from-blue-400 to-green-500 text-white hidden md:inline transform transition-transform
-                duration-300 hover:scale-105 px-4 py-2 rounded-full cursor-pointer dark:text-neutral-300'>
+                duration-300 hover:scale-105 px-4 py-2 rounded-full cursor-pointer'>
                   Conecte-se comigo.
                 </button>
       
