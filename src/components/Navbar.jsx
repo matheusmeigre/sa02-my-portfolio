@@ -16,7 +16,7 @@ const Navbar = () => {
               </div>
                 <button className='bg-gradient-to-r from-blue-400 to-green-500 text-white hidden md:inline transform transition-transform
                 duration-300 hover:scale-105 px-4 py-2 rounded-full cursor-pointer'>
-                  Conecte-se comigo.
+                  <a href="https://www.linkedin.com/in/matheus-meigre/" target='_blank'>Conecte-se comigo.</a>
                 </button>
       
           </div>

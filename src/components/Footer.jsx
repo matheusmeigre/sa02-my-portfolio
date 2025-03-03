@@ -8,7 +8,7 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row md:space-x-12 items-center  mb-4'>
                 <div className='flex-1 mb-4 md:mb-0'>
                     <h3 className='text-2xl font-bold mb-2'>Matheus Meigre</h3>
-                    <p className='text-gray-400'>Desenvolvedor FullStack - Minas Gerais, Brasil - 2025</p>
+                    <p className='text-gray-400'>Desenvolvedor FullStack - Minas Gerais, Brasil - {new Date().getFullYear()}</p>
                 </div>
                 <div className='flex-1 w-full'>
                     <div>
