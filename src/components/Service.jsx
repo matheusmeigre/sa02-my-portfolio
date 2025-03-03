@@ -3,23 +3,18 @@ import React from 'react'
 const services = [
     {
         id: 1,
-        title: 'Web Design',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id erat in ligula vestibulum sollicitudin.'
+        title: 'Desenvolvimento Web',
+        description: 'Construção de sites e aplicações responsivas, unindo design atrativo e código eficiente para proporcionar a melhor experiência ao usuário.'
     },
     {
         id: 2,
-        title: 'Web Development',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id erat in ligula vestibulum sollicitudin.'
+        title: 'Edição de Vídeos',
+        description: 'Edição de vídeos dinâmica e criativa, com cortes precisos, transições suaves e ajustes que valorizam cada cena.'
     },
     {
         id: 3,
-        title: 'Content Writing',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id erat in ligula vestibulum sollicitudin.'
-    },
-    {
-        id: 4,
-        title: 'Full-Stack Development',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id erat in ligula vestibulum sollicitudin.'
+        title: 'Desenvolvimento FullStack',
+        description: 'Criação de aplicações completas, do front-end ao back-end, com foco em performance, escalabilidade e experiência do usuário.'
     }
 ]
 

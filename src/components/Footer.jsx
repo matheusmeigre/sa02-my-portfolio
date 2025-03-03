@@ -15,15 +15,20 @@ const Footer = () => {
                         <h3 className='text-2xl font-bold mt-4'>Inscreva-se para novidades</h3>
                         <p className='text-gray-400 mb-2'>Receba atualizações sobre meu trabalho e novidades.</p>
                     </div>
-                    <form className='flex items-center justify-center'>
+                    <form 
+                        action="https://formsubmit.co/matheusmeigre011@gmail.com" 
+                        method="POST" 
+                        className='flex items-center justify-center'>
                         <input type="email" 
                         placeholder='Digite seu email'
+                        name='email'
                         className='w-full p-2 rounded-l-lg bg-gray-800 border border-gray-600
                         focus:outline-none focus:border-blue-500'
                         />
                         <button 
                             type='submit'
-                            className='bg-gradient-to-r from-blue-400 to-green-500 text-white px-4 py-2 rounded-r-lg w-1/2 hover:scale-105 transform transition-transform duration-300'>
+                            className='bg-gradient-to-r from-blue-400 to-green-500 text-white px-4 py-2 
+                            rounded-r-lg w-1/2 hover:scale-105 transform transition-transform duration-300 cursor-pointer'>
                             Inscrever-se
                         </button>
                     </form>
