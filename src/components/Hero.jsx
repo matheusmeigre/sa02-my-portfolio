@@ -3,7 +3,7 @@ import MyImage from '../assets/my-image.png'
 
 const Hero = () => {
   return (
-      <div className='bg-black text-white text-center py-16'>
+      <div className='text-center py-50'>
           <img src={MyImage} alt="Matheus Meigre"
           className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105' />
           <h1 className='text-4xl font-bold'>
@@ -11,7 +11,7 @@ const Hero = () => {
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-500'>Matheus Meigre</span>
               , FullStack Developer
           </h1>
-          <p className='text-lg mt-4 text-gray-300'>
+          <p className='text-lg mt-4' id='Apresentation'>
               Sou um Desenvolvedor FullStack residente em Minas Gerais, Brasil. Eu tenho uma paixão por tecnologia e por criar coisas funcionais!
           </p>
           <div className='mt-8 space-x-4'>

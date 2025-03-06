@@ -1,6 +1,108 @@
 @import 'tailwindcss';
+
+:root{
+    --dark-mode:hsl(0, 0%, 9%);
+    --light-mode:hsl(0, 0%, 95%);
+}
+
+.dark {
+    background-color: black;
+    color: white;
+    #Apresentation {
+        color: rgb(201, 201, 201);
+    }
+
+    #navbar {
+        background-color: var(--dark-mode);
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    #graphHtml {
+        background-color: var(--dark-mode);
+    }
+    #graphReact {
+        background-color: var(--dark-mode);
+    }
+    #graphNode {
+        background-color: var(--dark-mode);
+    }
+
+    #box-services {
+        background-color: var(--dark-mode);
+        p {
+            color: white;
+        }
+    }
+    #box-projects {
+        background-color: var(--dark-mode);
+    }
+
+    #nameContact {
+        background-color: var(--dark-mode);
+    }
+
+    #emailContact {
+        background-color: var(--dark-mode);
+    }
+
+    #textArea {
+        background-color: var(--dark-mode);
+    }
+    #newsletterInput{
+        background-color: var(--dark-mode);
+    }
+}
+
+#graphHtml {
+    background-color: var(--light-mode);
+}
+#graphReact {
+    background-color: var(--light-mode);
+}
+#graphNode {
+    background-color: var(--light-mode);
+}
+
+#box-services {
+    background-color: var(--light-mode);
+    p {
+        color: black;
+    }
+}
+
+#box-projects {
+    background-color: var(--light-mode);
+}
+
+#nameContact {
+    background-color: var(--light-mode);
+}
+
+#emailContact {
+    background-color: var(--light-mode);
+}
+
+#textArea {
+    background-color: var(--light-mode);
+}
+
+#newsletterInput{
+    background-color: var(--light-mode);
+}
+
+
+#navbar {
+    background-color: var(--light-mode);
+    padding: 15px;
+    border-radius: 20px;
+}
+#Apresentation {
+    color: rgb(0, 0, 0);
+}
+
 *{
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.2s, color 0.2s;
 }
 html {
     scroll-behavior: smooth;

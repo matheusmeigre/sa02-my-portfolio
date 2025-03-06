@@ -5,9 +5,9 @@ import { FaMapMarkedAlt } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-        <div className='bg-black text-white py-20' id='contact'>
+        <div className='py-20' id='contact'>
             <div className='container mx-auto px-8 md:px-16 lg:px-24'>
-                <h2 className='text-4xl font-bold text-center mb-12'>Sobre mim</h2>
+                <h2 className='text-4xl font-bold text-center mb-12'>Contato</h2>
                 <div className='flex flex-col md:flex-row items-center md:space-x-12'>
                     <div className='flex-1'>
 
@@ -34,21 +34,23 @@ const Contact = () => {
                         <div>
                             <label htmlFor="name" className="block mb-2">Seu Nome</label>
                             <input type="text"
-                            className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-blue-500'
+                            id='nameContact'
+                            className='w-full p-2 rounded border border-gray-600 focus:outline-none focus:border-blue-500'
                             placeholder='Digite Seu Nome'
                             />
                         </div>
                         <div>
                             <label htmlFor="email" className="block mb-2">Seu Email</label>
                             <input type="text"
-                            className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-blue-500'
+                            id='emailContact'
+                            className='w-full p-2 rounded border border-gray-600 focus:outline-none focus:border-blue-500'
                             placeholder='Digite Seu Email'
                             />
                         </div>
                         <div>
                             <label htmlFor="email" className="block mb-2">Sua Mensagem</label>
-                            <textarea type="text"
-                            className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-blue-500'
+                            <textarea id='textArea' type="text"
+                            className='w-full p-2 rounded border border-gray-600 focus:outline-none focus:border-blue-500'
                             placeholder='Digite Aqui Sua Mensagem'
                             rows="5"
                             />
