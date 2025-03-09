@@ -4,17 +4,20 @@ const services = [
     {
         id: 1,
         title: 'Desenvolvimento Web',
-        description: 'Construção de sites e aplicações responsivas, unindo design atrativo e código eficiente para proporcionar a melhor experiência ao usuário.'
+        description: 'Construção de sites e aplicações responsivas, unindo design atrativo e código eficiente para proporcionar a melhor experiência ao usuário.',
+        link: "https://github.com/matheusmeigre?tab=repositories",
     },
     {
         id: 2,
         title: 'Edição de Vídeos',
-        description: 'Edição de vídeos dinâmica e criativa, com cortes precisos, transições suaves e ajustes que valorizam cada cena.'
+        description: 'Edição de vídeos dinâmica e criativa, com cortes precisos, transições suaves e ajustes que valorizam cada cena.',
+        link: "https://github.com/matheusmeigre?tab=repositories",
     },
     {
         id: 3,
         title: 'Desenvolvimento FullStack',
-        description: 'Criação de aplicações completas, do front-end ao back-end, com foco em performance, escalabilidade e experiência do usuário.'
+        description: 'Criação de aplicações completas, do front-end ao back-end, com foco em performance, escalabilidade e experiência do usuário.',
+        link: "https://github.com/matheusmeigre?tab=repositories",
     }
 ]
 
@@ -36,7 +39,7 @@ const Service = () => {
                             {service.title}
                         </h3>
                         <p className='mt-2 text-gray-300'>{service.description}</p>
-                        <a href="#" className='mt-4 inline-block bg-gradient-to-r from-blue-400 to-green-500 text-white px-4 py-2 rounded-full hover:scale-105 transform transition-transform duration-300'>Saiba Mais</a>
+                        <a href={service.link} target='_blank' className='mt-4 inline-block bg-gradient-to-r from-blue-400 to-green-500 text-white px-4 py-2 rounded-full hover:scale-105 transform transition-transform duration-300'>Saiba Mais</a>
 
                     </div>
                 ))}

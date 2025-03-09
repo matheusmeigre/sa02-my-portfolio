@@ -1,12 +1,12 @@
 import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
-import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Service from './components/Service'
 import Footer from './components/Footer'
 import { useEffect, useState } from 'react'
+import MyProfile from './components/Hero'
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -37,7 +37,7 @@ function App() {
   return (
     <div id='spa'>
       <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
-      <Hero />
+      <MyProfile />
       <About />
       <Service />
       <Projects />

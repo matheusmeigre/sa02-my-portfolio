@@ -1,7 +1,7 @@
 import React from 'react'
 import MyImage from '../assets/my-image.png'
 
-const Hero = () => {
+const MyProfile = () => {
   return (
       <div className='text-center py-50'>
           <img src={MyImage} alt="Matheus Meigre"
@@ -24,4 +24,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default MyProfile
