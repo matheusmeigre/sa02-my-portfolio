@@ -40,13 +40,13 @@ const Footer = () => {
                     &copy; {new Date().getFullYear()} Matheus Meigre. Todos os direitos reservados.
                 </div>
                 <div className='flex space-x-4 my-4 md:my-0'>
-                    <a href="" className='text-gray-400 hover:text-white'>
+                    <a href="https://www.instagram.com/matheus.meigre/" target='_blank' className='text-gray-400 hover:text-white'>
                         <FaInstagram />
                     </a>
-                    <a href="" className='text-gray-400 hover:text-white'>
+                    <a href="https://github.com/matheusmeigre" target='_blank' className='text-gray-400 hover:text-white'>
                         <FaGithub />
                     </a>
-                    <a href="" className='text-gray-400 hover:text-white'>
+                    <a href="https://medium.com/@matheusmeigre" target='_blank' className='text-gray-400 hover:text-white'>
                         <FaMedium />
                     </a>
                 </div>
