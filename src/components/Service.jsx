@@ -5,7 +5,7 @@ const services = [
         id: 1,
         title: 'Desenvolvimento Web',
         description: 'Construção de sites e aplicações responsivas, unindo design atrativo e código eficiente para proporcionar a melhor experiência ao usuário.',
-        link: "https://github.com/matheusmeigre?tab=repositories",
+        link: "https://github.com/matheusmeigre/My-Projects",
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const services = [
         id: 3,
         title: 'Desenvolvimento FullStack',
         description: 'Criação de aplicações completas, do front-end ao back-end, com foco em performance, escalabilidade e experiência do usuário.',
-        link: "https://vercel.com/matheus-meigres-projects",
+        link: "https://github.com/matheusmeigre/My-Projects",
     }
 ]
 
