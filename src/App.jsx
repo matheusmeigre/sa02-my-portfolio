@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 import Service from './components/Service'
 import Footer from './components/Footer'
 import { useEffect, useState } from 'react'
-import MyProfile from './components/Hero'
+import MyProfile from './components/MyProfile'
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
