@@ -11,13 +11,13 @@ const services = [
         id: 2,
         title: 'Edição de Vídeos',
         description: 'Edição de vídeos dinâmica e criativa, com cortes precisos, transições suaves e ajustes que valorizam cada cena.',
-        link: "https://github.com/matheusmeigre?tab=repositories",
+        link: "https://www.youtube.com/playlist?list=PLnV9xNzktAsm3gP0uux5BJ8Vth8BeEC_G",
     },
     {
         id: 3,
         title: 'Desenvolvimento FullStack',
         description: 'Criação de aplicações completas, do front-end ao back-end, com foco em performance, escalabilidade e experiência do usuário.',
-        link: "https://github.com/matheusmeigre?tab=repositories",
+        link: "https://vercel.com/matheus-meigres-projects",
     }
 ]
 
