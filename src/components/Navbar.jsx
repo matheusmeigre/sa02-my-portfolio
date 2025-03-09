@@ -9,7 +9,7 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
           <div className='container py-2 flex justify-center md:justify-between items-center'>
               <div className='text-2xl font-bold hidden md:inline'><a href="/home">Matheus Meigre</a></div>
               <div id="navbar" className='space-x-6 flex text-center'>
-                  <a href="home" className='hover:text-red-300'>Início</a>
+                  <a href="/" className='hover:text-red-300'>Início</a>
                   <a href="#about" className='hover:text-blue-300'>Sobre</a>
                   <a href="#services" className='hover:text-green-300'>Serviços</a>
                   <a href="#projects" className='hover:text-orange-300'>Projetos</a>
