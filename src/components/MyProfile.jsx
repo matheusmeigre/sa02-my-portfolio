@@ -33,7 +33,11 @@ const MyProfile = () => {
                     </p>
                 </div>
                 <div className='flex gap-4'>
-                    <a className="btn btn-danger w-full cursor-pointer transition-transform duration-600 hover:scale-105">Contatar</a>
+                    <a href='mailto:matheusmeigre@gmail.com' 
+                    className="btn btn-danger w-full cursor-pointer transition-transform duration-600 hover:scale-105"
+                    >
+                    Contatar
+                    </a>
                 </div>
                 </div>
             </Modal>
