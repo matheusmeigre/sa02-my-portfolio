@@ -46,7 +46,7 @@ const projects = [
         description: 'Site com funcionalidade de desenho no quadro.',
         technologies: [FaHtml5, FaCss3, FaJs],
         image: canva,
-        link: 'https://matheusmeigre.github.io/projeto-canva/',
+        link: 'https://matheusmeigre.github.io/projeto-desenho/',
     }
 ]
 
