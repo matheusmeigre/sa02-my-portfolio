@@ -67,7 +67,7 @@ const Projects = () => {
                         ))}</div>
                         <a href={project.link} className='inline-block bg-gradient-to-r from-blue-400 to-green-500
                         text-white px-4 py-2 rounded-full hover:scale-105 transform transition-transform duration-300' 
-                        target='_blank' rel='noopener noreferrer'>GitHub</a>
+                        target='_blank' rel='noopener noreferrer'>Ver mais</a>
                     </div>
                 ))}
             </div>
